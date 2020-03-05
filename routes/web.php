@@ -25,3 +25,8 @@ Route::get('/about',function (){
 
     return view('pages.about');
 });
+
+Route::view('/UserRegistration',"pages.UserRegistration");
+Route::view('/UserLogin',"pages.UserLogin");
+Route::post('/registerr',"CredentialsController@registerr");
+Route::post('/login',"CredentialsController@login");
