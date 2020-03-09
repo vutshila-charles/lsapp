@@ -5,7 +5,7 @@ xml:lang="en" lang="en">
 <h1>
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
     <style type="text/css" media="all">@import "./includes/layout.css";</style>
-    <title>Dynamic Web</title>s
+    <title>Dynamic Web</title>
 </h1>
 <div id="wrapper"><!--Goes with CSS layout.-->
     <div id="content"><!--Goes with CSS layout.-->

@@ -11,8 +11,8 @@ if(isset($_GET['submitted']))
         $total = ($_GET['quantity'] *$_GET['price'])*($taxrate+1);
         
         echo '<h1 id="mainhead">Total Cost</h1>
-        <p> The total cost of purchasing ' . $_GET['quantity'] . ' widget(s) at $' . number_format
-            ($_GET['price'],2) . ' each, including a tax rate of ' . $_GET['tax'] .'%, is $' . number_format($total, 2). '.</p><p><br/></p>' ;
+        <p> The total cost of purchasing ' . $_GET['quantity'] . ' widget(s) at $ ' . number_format
+            ($_GET['price'],2) . ' each, including a tax rate of  ' . $_GET['tax'] .'% , is $ ' . number_format($total, 2). '.</p><p><br/></p>' ;
     }
     else{
         echo '<h1 id="mainhead">Error!</h1>

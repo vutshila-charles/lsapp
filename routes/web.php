@@ -37,3 +37,8 @@ Route::get('/DynamicWeb',function (){
 });
 
 Route::view('/Calculator',"pages.Calculator");
+
+Route::get('/HomePage',function (){
+
+    return view('pages.HomePage');
+});

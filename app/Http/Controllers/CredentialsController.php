@@ -18,7 +18,8 @@ public function registerr(request $request)
    $email =$request-> input('email');
    $password =$request-> input('password');
  DB::insert('insert into Users(Id,Username,Email,Password) values(?,?,?,?)',[null,$username,$email,$password]);
- echo  "Registered"; 
+ echo  "Registered";
+  
 
 }
 
@@ -30,11 +31,11 @@ public function login(request $request)
 $data= DB:: select('select Email from Users where Username=? and Password=?',[$username,$password]);
 if(count($data))
 {
-    echo "True";
+    echo '<script>window.location.href="DynamicWeb";</script>';
 }
     else
     {
-        echo "False";
+        echo "Incorrect details verify username or password";
     }
 }
 
