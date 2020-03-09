@@ -30,3 +30,8 @@ Route::view('/UserRegistration',"pages.UserRegistration");
 Route::view('/UserLogin',"pages.UserLogin");
 Route::post('/registerr',"CredentialsController@registerr");
 Route::post('/login',"CredentialsController@login");
+
+Route::get('/DynamicWeb',function (){
+
+    return view('pages.DynamicWeb');
+});
