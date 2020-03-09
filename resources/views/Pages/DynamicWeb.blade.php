@@ -14,9 +14,9 @@ xml:lang="en" lang="en">
             <body>
             <ul>
                 <li class"navtop"><a href="index.php" title="Go to Home page">Home</a></li>
-                <li class"navtop"><a href="calculator.php" title="Go to Calculator page">Calculator</a></li>
-                <li class"navtop"><a href="dateform.php" title="Go to date form page">Date Form</a></li>
-                <li class"navtop"><a href="Registration.php" title="Go to registration page">Registration</a></li>
+                <li ><a href="Calculator.blade.php" title="Go to Calculator page">Calculator</a></li>
+                <li><a href="dateform.php" title="Go to date form page">Date Form</a></li>
+                <li ><a href="Registration.php" title="Go to registration page">Registration</a></li>
             </ul>
         </div>
         <!-- Start of page-specific content. -->
