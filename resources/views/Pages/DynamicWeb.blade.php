@@ -5,7 +5,7 @@ xml:lang="en" lang="en">
 <h1>
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
     <style type="text/css" media="all">@import "./includes/layout.css";</style>
-    <title>Login Form </title>
+    <title>Dynamic Web</title>s
 </h1>
 <div id="wrapper"><!--Goes with CSS layout.-->
     <div id="content"><!--Goes with CSS layout.-->
@@ -14,9 +14,9 @@ xml:lang="en" lang="en">
             <body>
             <ul>
                 <li class"navtop"><a href="index.php" title="Go to Home page">Home</a></li>
-                <li ><a href="Calculator.blade.php" title="Go to Calculator page">Calculator</a></li>
-                <li><a href="dateform.php" title="Go to date form page">Date Form</a></li>
-                <li ><a href="Registration.php" title="Go to registration page">Registration</a></li>
+                <li ><a href="Calculator" title="Go to Calculator page">Calculator</a></li>
+                <li><a href="dateform" title="Go to date form page">Date Form</a></li>
+                <li ><a href="Registration" title="Go to registration page">Registration</a></li>
             </ul>
         </div>
         <!-- Start of page-specific content. -->
