@@ -1,4 +1,5 @@
 <html>
+    @extends('Layouts.Head')
     <title>HomePage</title>
     <h1>Welcome To Vutshila TekNolojiez!</h1>
 <body style="background-color:yellow;">

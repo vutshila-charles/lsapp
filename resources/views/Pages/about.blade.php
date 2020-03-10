@@ -1,4 +1,5 @@
 <html>
+    @extends('Layouts.Head')
     <title>About</title>
     <h1>About</h1>
 <body>

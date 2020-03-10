@@ -42,3 +42,8 @@ Route::get('/HomePage',function (){
 
     return view('pages.HomePage');
 });
+
+Route::get('/DateForm',function (){
+
+    return view('pages.DateForm');
+});
