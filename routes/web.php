@@ -47,3 +47,8 @@ Route::get('/DateForm',function (){
 
     return view('pages.DateForm');
 });
+
+Route::get('/Advert',function (){
+
+    return view('pages.Advert');
+});

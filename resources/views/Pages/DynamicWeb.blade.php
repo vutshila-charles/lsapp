@@ -17,7 +17,7 @@ xml:lang="en" lang="en">
                 <li class="navtop"><a href="HomePage " title="Go to Home page">Home</a></li>
                 <li ><a href="Calculator" title="Go to Calculator page">Calculator</a></li>
                 <li><a href="DateForm" title="Go to date form page">Date Form</a></li>
-                <li ><a href="Registration" title="Go to registration page">Registration</a></li>
+                <li ><a href="Advert" title="Go to registration page">Adverts</a></li>
             </ul>
         </div>
         <!-- Start of page-specific content. -->

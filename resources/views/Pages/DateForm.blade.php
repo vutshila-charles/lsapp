@@ -41,8 +41,13 @@ function make_calendar_pulldowns()
 
  echo '<h1 id="mainhead">Select a date:</h1>
  <p><br/></p><form action="DateForm" method="GET">';
-    make_calendar_pulldowns();
-    echo '</form><p><br /><p>';
+    
+    
 
+        $dates= getdate();
+        make_calendar_pulldowns($dates['mon'],$dates['mday'],$dates['year']);
+ echo '</form><p><br /><p>';
+
+    echo '<p> Today is ' .date('l'). '.The Current time is '.date('g:i a').'.</p>';
 
 ?> 
