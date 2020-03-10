@@ -18,7 +18,7 @@ public function registerr(request $request)
    $email =$request-> input('email');
    $password =$request-> input('password');
  DB::insert('insert into Users(Id,Username,Email,Password) values(?,?,?,?)',[null,$username,$email,$password]);
- echo  "Registered";
+ echo '<script>window.location.href="UserLogin";</script>';
   
 
 }

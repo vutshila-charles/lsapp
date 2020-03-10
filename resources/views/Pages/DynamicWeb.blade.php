@@ -13,7 +13,7 @@ xml:lang="en" lang="en">
             <h2>Menu</h2>
             <body>
             <ul>
-                <li class"navtop"><a href="index.php" title="Go to Home page">Home</a></li>
+                <li class"navtop"><a href="HomePage" title="Go to Home page">Home</a></li>
                 <li ><a href="Calculator" title="Go to Calculator page">Calculator</a></li>
                 <li><a href="dateform" title="Go to date form page">Date Form</a></li>
                 <li ><a href="Registration" title="Go to registration page">Registration</a></li>
