@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+    @extends('Layouts.Head')
+    <title>Advert</title>
 <head>
 <style>
 * {
@@ -139,7 +141,7 @@ body {
         Mirror package 
       </p>
     </div>
-    <div class="card">
+    <div class="card" style="background-color:lightblue;">
       <h2>BMW</h2>
       <h5>AN ICON REINVENTED
         </h5>
@@ -155,9 +157,9 @@ body {
     </div>
   </div>
   <div class="rightcolumn">
-    <div class="card">
+    <div class="card" style="background-color:yellow;">
       <h2>About Us</h2>
-      <div style="height:250px; width:250px;">
+      <div style="height:250px; width:250px;background-color:yellow;" >
         <img alt="Bossess" title="Board Members" src="Capture.png" />
     </div>
       <p>Vutshila Cars is a local automotive organization, which began as Charlee's automobile inventions, as early as 2017 lol!,We revolutionized the way people make their choices on choosing the best vehicle of their choice. Today the  company , shapes the future of mobility through premium, innovative mobility solutions supported by a comprehensive value chain and supported by responsible business ethics.</p>
@@ -170,7 +172,12 @@ body {
     </div>
     <div class="card">
       <h3>Follow follow us</h3>
-      <p>Some text..</p>
+      <div class="topnav">
+        <a href="">Facebook</a>
+        
+        
+      </div>
+      <p>Thanks in advance for following our page</p>
     </div>
   </div>
 </div>
