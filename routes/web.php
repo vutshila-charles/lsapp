@@ -31,6 +31,9 @@ Route::view('/UserLogin',"pages.UserLogin");
 Route::post('/registerr',"CredentialsController@registerr");
 Route::post('/login',"CredentialsController@login");
 
+
+
+
 Route::get('/DynamicWeb',function (){
 
     return view('pages.DynamicWeb');
@@ -51,4 +54,20 @@ Route::get('/DateForm',function (){
 Route::get('/Advert',function (){
 
     return view('pages.Advert');
+});
+
+
+
+Route::get('/CheckInForm',function (){
+
+    return view('pages.CheckInForm');
+});
+
+Route::get('/MyBookingForm',function (){
+
+    return view('pages.MyBookingForm');
+});
+Route::get('/Flights',function (){
+
+    return view('pages.Flights');
 });

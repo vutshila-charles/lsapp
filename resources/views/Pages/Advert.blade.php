@@ -155,6 +155,7 @@ body {
       <h6>BMW 320i Sport Launch Edition Automatic</h6>
       <p>Change is happening at unprecedented speed. And there's no better way to navigate it than in the most intelligent BMW 3 Series ever built;with sleek,precise and powerful lines,high-performance thrills and cutting-edge infotainment. Complete with high-end connectivity tailgate,Park Assit and more!!</p>
     </div>
+    
   </div>
   <div class="rightcolumn">
     <div class="card" style="background-color:yellow;">
