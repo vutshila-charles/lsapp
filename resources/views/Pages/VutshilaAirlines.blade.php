@@ -124,7 +124,7 @@ body {
       </div>
 
       <div class="container" style="background-color:lightblue;">
-          <form class="" action="{{URL::to('/Flyer')}}" method="post" style="background-color:lightblue;">
+          <form class="" action="{{URL::to('/destroy')}}" method="post" style="background-color:lightblue;">
             @csrf
             <div class="radio">
                 <label><input type="radio" name="firtoption">Round-trip</label>
@@ -134,18 +134,18 @@ body {
                     </div>
                     <div class="form-group">
                         <label for="Departure"></label>
-                    <input type="text" class="form-control" placeholder="Departure Airport" name=" DepartureAirport">
+                    <input type="text" class="form-control" placeholder="Departure Airport" name=" Departure">
                     </div>
                     <div class="form-group">
                         <label for="Arival"></label>
-                    <input type="text" class="form-control" placeholder="Arival Airport" name=" ArivalAirport">
+                    <input type="text" class="form-control" placeholder="Arival Airport" name=" Destination">
                     </div>
                     <div class="form-group">
                         <label for="Departure">Departure Date</label>
                     <input type="text" class="form-control" placeholder="mm/dd/yyyy" name=" DepartureDate">
                     </div>
                     <div class="form-group">
-                        <label for="Arival">Arival Date</label>
+                        <label for="Arival">Arrival Date</label>
                     <input type="text" class="form-control" placeholder="mm/dd/yyyy" name=" ArivalDate">
                     </div>
                     <button type="submit">Search</button>

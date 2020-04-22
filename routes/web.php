@@ -31,6 +31,7 @@ Route::view('/UserLogin',"pages.UserLogin");
 Route::post('/registerr',"CredentialsController@registerr");
 Route::post('/login',"CredentialsController@login");
 
+Route::get('/destroy',"FlightsController@destroy");
 
 
 
@@ -56,7 +57,10 @@ Route::get('/Advert',function (){
     return view('pages.Advert');
 });
 
+Route::get('/VutshilaAirlines',function (){
 
+    return view('pages.VutshilaAirlines');
+});
 
 Route::get('/CheckInForm',function (){
 
@@ -67,7 +71,15 @@ Route::get('/MyBookingForm',function (){
 
     return view('pages.MyBookingForm');
 });
-Route::get('/Flights',function (){
+Route::get('/Flightindx',function (){
 
-    return view('pages.Flights');
+    return view('flying.Flightindx');
 });
+
+Route::get('/PassengerDetails',function (){
+
+    return view('pages.PassengerDetails');
+});
+
+Route::resource('/posts','AirlineController');
+Route::resource('/flying','FlightsController');

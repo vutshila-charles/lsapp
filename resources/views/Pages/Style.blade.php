@@ -103,6 +103,24 @@
       }
       
     }
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {font-size: 10px;}
+.button2 {font-size: 12px;}
+.button3 {font-size: 16px;}
+.button4 {font-size: 20px;}
+.button5 {font-size: 24px;}
+
     /*aligning*/
     .left{float:left;}
     .right{float: right;}

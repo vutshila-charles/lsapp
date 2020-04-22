@@ -18,6 +18,7 @@ xml:lang="en" lang="en"  style="background-color:yellow;">
                 <li ><a href="Calculator" title="Go to Calculator page">Calculator</a></li>
                 <li><a href="DateForm" title="Go to date form page">Date Form</a></li>
                 <li ><a href="Advert" title="Go to registration page">Adverts</a></li>
+                <li ><a href="posts" title="Go to registration page">Blog</a></li>
                 <li ><a href="VutshilaAirlines" title="Go to VutshilaAirlines page">Book Flight</a></li>
             </ul>
         </div>
