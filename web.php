@@ -30,3 +30,10 @@ Route::view('/UserRegistration',"pages.UserRegistration");
 Route::view('/UserLogin',"pages.UserLogin");
 Route::post('/registerr',"CredentialsController@registerr");
 Route::post('/login',"CredentialsController@login");
+
+Route::get('/ErrorPage',function (){
+
+    return view('pages.ErrorPage');
+});
+
+Route::post('/store',"FlightsController@store");

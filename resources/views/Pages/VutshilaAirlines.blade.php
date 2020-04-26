@@ -124,13 +124,13 @@ body {
       </div>
 
       <div class="container" style="background-color:lightblue;">
-          <form class="" action="{{URL::to('/destroy')}}" method="post" style="background-color:lightblue;">
+          <form class="" action="{{URL::to('/destroy')}}" method="get" style="background-color:lightblue;">
             @csrf
             <div class="radio">
-                <label><input type="radio" name="firtoption">Round-trip</label>
+                <label><input type="radio" name="option" id="roundtrip" value="Round" onclick="show()">Round-trip</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="secondoption">One-way</label>
+                    <label><input type="radio" name="option" id="Onetrip" value="OneWay" onclick="show()">One-way</label>
                     </div>
                     <div class="form-group">
                         <label for="Departure"></label>
@@ -144,9 +144,9 @@ body {
                         <label for="Departure">Departure Date</label>
                     <input type="text" class="form-control" placeholder="mm/dd/yyyy" name=" DepartureDate">
                     </div>
-                    <div class="form-group">
-                        <label for="Arival">Arrival Date</label>
-                    <input type="text" class="form-control" placeholder="mm/dd/yyyy" name=" ArivalDate">
+                    <div class="form-group" id="datebox" style ="visibility: hidden">
+                        <label for="Arival">Return Date</label>
+                    <input type="text" class="form-control" placeholder="mm/dd/yyyy" name=" ArivalDate" >
                     </div>
                     <button type="submit">Search</button>
                     
@@ -154,5 +154,22 @@ body {
           </form>
       </div>
 </body>
+ <script>
+  function show(){
+    
+    if (document.getElementById('roundtrip').checked){
+      
+      document.getElementById("datebox").style.visibility = "visible";
+    }
+
+    if(document.getElementById('Onetrip').checked){
+
+      document.getElementById("datebox").style.visibility = "hidden";
+    }
+   }
+
+
+   </script>
+
 
 </html>

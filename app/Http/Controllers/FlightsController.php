@@ -42,6 +42,15 @@ class FlightsController extends Controller
     public function store(Request $request)
     {
         //
+        $Name =$request-> input('PassengerName');
+        $Surname =$request-> input('Surname');
+        $Dateofbirth =$request-> input('DateofBirth');
+        $mobile =$request-> input('Mobile');
+        $email =$request-> input('email');
+        $RefNo=substr($Name,0,3).substr($Surname,0,2).substr($mobile,4,7);
+
+      DB::insert('insert into passengers(id,Names,Surname,Date,Mobile,Email,RefNum) values(?,?,?,?,?,?,?)',[null,$Name, $Surname, $Dateofbirth,$mobile,$email,$RefNo]);
+      echo '<script>window.location.href="UserLogin";</script>';
     }
 
     /**
@@ -101,7 +110,8 @@ class FlightsController extends Controller
    }
     else
     {
-        echo "Flights not available choose different route";
+        //echo "<h2>Flights not available choose different route</h2>";
+        return view('pages.ErrorPage');
     }
  }
 

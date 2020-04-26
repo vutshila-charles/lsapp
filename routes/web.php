@@ -83,3 +83,17 @@ Route::get('/PassengerDetails',function (){
 
 Route::resource('/posts','AirlineController');
 Route::resource('/flying','FlightsController');
+
+
+Route::get('/AboutAirline',function (){
+
+    return view('pages.AboutAirline');
+});
+
+
+Route::get('/ErrorPage',function (){
+
+    return view('pages.ErrorPage');
+});
+Route::resource('/pages','FlightsController');
+Route::post('/store',"FlightsController@store");
